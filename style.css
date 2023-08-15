@@ -3,13 +3,14 @@ body {
     font-size: 15px;
     width: 1440px;
     height: 100vh;
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 400;
 }
 
 .secciones{
     display: flex;
     width: 1440px;
     height: 100vh;
-    flex-direction: column;
     flex-wrap: wrap;
     border-radius: 10%;
     justify-content: center;
@@ -18,28 +19,53 @@ body {
 
 .seccion1{
     background-color: hsl(31, 77%, 52%);
-    height: 50vh;
-    width: 300px;
+    height: 65vh;
+    width: 43vh;
 }
 
 .seccion2{
     background-color: hsl(184, 100%, 22%);
-    width: 300px;
+    height: 65vh;
+    width: 43vh;
 }
 
 .seccion3{
     background-color: hsl(179, 100%, 13%);
-    width: 300px;
+    height: 65vh;
+    width: 43vh;
 }
 
 h1{
     color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-weight: 700;
+    margin-left: 7vh;
+    margin-bottom: 5vh;
 }
 
 p{
+    width: 30vh;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 400;
+    margin-left: 7vh;
+    margin-bottom: 11vh;
 }
 
 button{
     background-color: hsl(0, 0%, 95%);
+    margin-left: 7vh;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+svg{
+    margin-top: 7vh;
+    margin-left: 7vh;
+    margin-bottom: 1vh;
 }
