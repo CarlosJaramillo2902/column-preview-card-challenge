@@ -1,3 +1,45 @@
-#html{
-    background-color:aliceblue;
+body {
+    background-color:hsl(0, 0%, 95%);
+    font-size: 15px;
+    width: 1440px;
+    height: 100vh;
+}
+
+.secciones{
+    display: flex;
+    width: 1440px;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion1{
+    background-color: hsl(31, 77%, 52%);
+    height: 50vh;
+    width: 300px;
+}
+
+.seccion2{
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+}
+
+.seccion3{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+}
+
+h1{
+    color:hsl(0, 0%, 95%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
 }
