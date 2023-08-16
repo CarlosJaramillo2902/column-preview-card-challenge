@@ -3,8 +3,6 @@ body {
     font-size: 15px;
     width: 1440px;
     height: 100vh;
-    font-family:'Lexend Deca',sans-serif;
-    font-weight: 400;
 }
 
 .secciones{
@@ -12,7 +10,6 @@ body {
     width: 1440px;
     height: 100vh;
     flex-wrap: wrap;
-    border-radius: 10%;
     justify-content: center;
     align-items: center;
 }
@@ -21,6 +18,8 @@ body {
     background-color: hsl(31, 77%, 52%);
     height: 65vh;
     width: 43vh;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
 }
 
 .seccion2{
@@ -33,35 +32,66 @@ body {
     background-color: hsl(179, 100%, 13%);
     height: 65vh;
     width: 43vh;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
 
 h1{
     color:hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display',sans-serif;
     font-weight: 700;
+    font-size: 250%;
     margin-left: 7vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 p{
-    width: 30vh;
+    width: 29vh;
     color: hsla(0, 0%, 100%, 0.75);
     font-family:'Lexend Deca',sans-serif;
     font-weight: 400;
+    line-height: 150%;
     margin-left: 7vh;
     margin-bottom: 11vh;
 }
 
-button{
+.boton1{
     background-color: hsl(0, 0%, 95%);
-    margin-left: 7vh;
-    border: none;
-    color: hsl(31, 77%, 52%);
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    padding: 5% 10%;
+    margin-left: 7vh;
+    color: hsl(31, 77%, 52%);
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    border: none;
+    border-radius: 30px;
+}
+
+.boton2{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 5% 10%;
+    margin-left: 7vh;
+    color: hsl(184, 100%, 22%);
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    border: none;
+    border-radius: 30px;
+}
+
+.boton3{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 5% 10%;
+    margin-left: 7vh;
+    color: hsl(179, 100%, 13%);
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    border: none;
+    border-radius: 30px;
 }
 
 svg{
